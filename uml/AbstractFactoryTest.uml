@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.org.designpattern.factory.abstractFactory.AbstractFactoryTest</OriginalElement>
+  <nodes>
+    <node x="59.0" y="157.0">com.org.designpattern.factory.abstractFactory.IProductionFactory</node>
+    <node x="0.0" y="238.0">com.org.designpattern.factory.abstractFactory.ColorTVFactory</node>
+    <node x="287.0" y="395.0">com.org.designpattern.factory.Fridge</node>
+    <node x="378.0" y="395.0">com.org.designpattern.factory.ColorTV</node>
+    <node x="87.0" y="314.0">com.org.designpattern.factory.abstractFactory.IName</node>
+    <node x="320.0" y="314.0">com.org.designpattern.factory.IProduction</node>
+    <node x="88.5" y="0.0">com.org.designpattern.factory.abstractFactory.IFunction</node>
+    <node x="0.0" y="395.0">com.org.designpattern.factory.abstractFactory.ColorTVName</node>
+    <node x="0.0" y="81.0">com.org.designpattern.factory.abstractFactory.FridgeFunction</node>
+    <node x="0.0" y="471.0">com.org.designpattern.factory.abstractFactory.AbstractFactoryTest</node>
+    <node x="139.0" y="81.0">com.org.designpattern.factory.abstractFactory.ColorTVFunction</node>
+    <node x="143.0" y="238.0">com.org.designpattern.factory.abstractFactory.FridgeFactory</node>
+    <node x="136.0" y="395.0">com.org.designpattern.factory.abstractFactory.FridgeName</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.org.designpattern.factory.abstractFactory.FridgeFunction" target="com.org.designpattern.factory.abstractFactory.IFunction">
+      <point x="0.0" y="-15.5" />
+      <point x="59.5" y="56.0" />
+      <point x="110.0" y="56.0" />
+      <point x="-21.5" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.abstractFactory.FridgeFactory" target="com.org.designpattern.factory.abstractFactory.IProductionFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="199.5" y="213.0" />
+      <point x="166.25" y="213.0" />
+      <point x="35.75" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.ColorTV" target="com.org.designpattern.factory.IProduction">
+      <point x="0.0" y="-15.5" />
+      <point x="418.5" y="370.0" />
+      <point x="395.75" y="370.0" />
+      <point x="25.25" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.Fridge" target="com.org.designpattern.factory.IProduction">
+      <point x="0.0" y="-15.5" />
+      <point x="322.5" y="370.0" />
+      <point x="345.25" y="370.0" />
+      <point x="-25.25" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.abstractFactory.FridgeName" target="com.org.designpattern.factory.abstractFactory.IName">
+      <point x="0.0" y="-15.5" />
+      <point x="189.0" y="370.0" />
+      <point x="141.75" y="370.0" />
+      <point x="18.25" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.abstractFactory.ColorTVFunction" target="com.org.designpattern.factory.abstractFactory.IFunction">
+      <point x="0.0" y="-15.5" />
+      <point x="203.5" y="56.0" />
+      <point x="153.0" y="56.0" />
+      <point x="21.5" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.abstractFactory.ColorTVName" target="com.org.designpattern.factory.abstractFactory.IName">
+      <point x="0.0" y="-15.5" />
+      <point x="58.0" y="370.0" />
+      <point x="105.25" y="370.0" />
+      <point x="-18.25" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.abstractFactory.ColorTVFactory" target="com.org.designpattern.factory.abstractFactory.IProductionFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="61.5" y="213.0" />
+      <point x="94.75" y="213.0" />
+      <point x="-35.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.939846743295019" x="264.99347737464336" y="152.6885446392173" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

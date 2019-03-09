@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.org.designpattern.factory.simpleFactory.SimpleFactoryTest</OriginalElement>
+  <nodes>
+    <node x="91.0" y="81.0">com.org.designpattern.factory.ColorTV</node>
+    <node x="33.0" y="0.0">com.org.designpattern.factory.IProduction</node>
+    <node x="0.0" y="157.0">com.org.designpattern.factory.simpleFactory.SimpleFactoryTest</node>
+    <node x="0.0" y="81.0">com.org.designpattern.factory.Fridge</node>
+    <node x="0.0" y="233.0">com.org.designpattern.factory.simpleFactory.ProductFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.org.designpattern.factory.ColorTV" target="com.org.designpattern.factory.IProduction">
+      <point x="0.0" y="-15.5" />
+      <point x="131.5" y="56.0" />
+      <point x="108.75" y="56.0" />
+      <point x="25.25" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.Fridge" target="com.org.designpattern.factory.IProduction">
+      <point x="0.0" y="-15.5" />
+      <point x="35.5" y="56.0" />
+      <point x="58.25" y="56.0" />
+      <point x="-25.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="176.0" />
+  <SelectedNodes>
+    <node>com.org.designpattern.factory.simpleFactory.SimpleFactoryTest</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

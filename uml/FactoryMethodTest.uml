@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.org.designpattern.factory.factoryMethod.FactoryMethodTest</OriginalElement>
+  <nodes>
+    <node x="91.0" y="238.0">com.org.designpattern.factory.ColorTV</node>
+    <node x="33.0" y="157.0">com.org.designpattern.factory.IProduction</node>
+    <node x="59.0" y="0.0">com.org.designpattern.factory.factoryMethod.IProductionFactory</node>
+    <node x="143.0" y="81.0">com.org.designpattern.factory.factoryMethod.FridgeFactory</node>
+    <node x="0.0" y="314.0">com.org.designpattern.factory.factoryMethod.FactoryMethodTest</node>
+    <node x="0.0" y="238.0">com.org.designpattern.factory.Fridge</node>
+    <node x="0.0" y="81.0">com.org.designpattern.factory.factoryMethod.ColorTVFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.org.designpattern.factory.ColorTV" target="com.org.designpattern.factory.IProduction">
+      <point x="0.0" y="-15.5" />
+      <point x="131.5" y="213.0" />
+      <point x="108.75" y="213.0" />
+      <point x="25.25" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.Fridge" target="com.org.designpattern.factory.IProduction">
+      <point x="0.0" y="-15.5" />
+      <point x="35.5" y="213.0" />
+      <point x="58.25" y="213.0" />
+      <point x="-25.25" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.factoryMethod.ColorTVFactory" target="com.org.designpattern.factory.factoryMethod.IProductionFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="61.5" y="56.0" />
+      <point x="94.75" y="56.0" />
+      <point x="-35.75" y="15.5" />
+    </edge>
+    <edge source="com.org.designpattern.factory.factoryMethod.FridgeFactory" target="com.org.designpattern.factory.factoryMethod.IProductionFactory">
+      <point x="0.0" y="-15.5" />
+      <point x="199.5" y="56.0" />
+      <point x="166.25" y="56.0" />
+      <point x="35.75" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="73.0" y="156.0" />
+  <SelectedNodes>
+    <node>com.org.designpattern.factory.factoryMethod.FactoryMethodTest</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
